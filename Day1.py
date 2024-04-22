@@ -31,3 +31,17 @@ weight_kg = input('Weight (Kg): ')
 weight_lbs = int(weight_kg) / 0.45
 print(weight_lbs)
 print("Weight(lbs) is: " + str(weight_lbs) + " lbs.")
+
+
+# ---------- String ----------
+course = 'Python of Beginner'
+courseDisc = '''
+Hi Tar,
+
+Here is our first email to you
+
+Thank you,
+The support team.
+'''
+print(course)
+print(courseDisc)
