@@ -19,3 +19,10 @@ print(isPublished)
 name = input('What is your name ? ')
 favoriteColor = input('What is your favorite color ? ')
 print(name + " like " + favoriteColor + ".")
+
+
+# Typing Conversion
+birthYear = input('Brith year ? ')
+age = 2024 - int(birthYear)
+print(type(age))
+print(age)
