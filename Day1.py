@@ -1,9 +1,9 @@
-# แสดงผลข้อมูล
+# ---------- แสดงผลข้อมูล ----------
 print("hello world")
 print("*" * 10)
 
 
-# Variable
+# ---------- Variable ----------
 pet = ["dog", "cat"]
 rated = 4.5
 values = 10
@@ -15,13 +15,13 @@ print("The value is: " + str(values)) # แสดงผลลัพธ์เป�
 print(isPublished)
 
 
-# Receiving Input
+# ---------- Receiving Input ----------
 name = input('What is your name ? ')
 favoriteColor = input('What is your favorite color ? ')
 print(name + " like " + favoriteColor + ".")
 
 
-# Typing Conversion
+# ---------- Typing Conversion ----------
 birthYear = input('Brith year ? ')
 age = 2024 - int(birthYear)
 print(type(age))
