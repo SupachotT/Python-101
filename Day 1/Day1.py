@@ -44,4 +44,5 @@ Thank you,
 The support team.
 '''
 print(course)
+print(course[0:3]) # result is Pyt
 print(courseDisc)
