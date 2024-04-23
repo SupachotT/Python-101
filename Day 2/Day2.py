@@ -12,3 +12,13 @@ print(len(course))
 print(course.upper())
 print(course.find("P")) # ผลออกมาเป็นการนับแบบคอมพิวเตอร์
 print(course.replace("Beginner","Absolute Beginners")) # Python for Absolute Beginners
+
+
+# ---------- Operator Precedence ----------
+x = (10 + 3) * 2 ** 3
+print(x)
+
+# 1. ทำในวงเล็บ
+# 2. ทำ 2 ยกกำลัง 3 (**)
+# 3. ทำคูณหรือหาร
+# 4. ทำบวกหรือลบ
